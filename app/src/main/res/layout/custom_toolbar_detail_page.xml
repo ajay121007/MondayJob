@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_60sdp"
+    android:background="#FBFBFB"
+    app:theme="@style/Theme.Design.NoActionBar"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:src="@drawable/back"
+            android:id="@+id/nav_back"
+            android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/boarder_search"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:gravity="center"
+            android:weightSum="2"
+            android:id="@+id/ll_serach"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_height="wrap_content">
+            <com.mondayjob.mondayjob.controller.CustomViews.MyEditTextMedium
+                android:layout_width="0dp"
+                android:layout_weight="1.8"
+                android:padding="@dimen/_8sdp"
+                android:textColor="@color/colorBlack"
+                android:textColorHint="#BFBFBF"
+                android:hint="@string/quaryHint"
+                android:background="@android:color/transparent"
+                android:layout_height="wrap_content"/>
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="0dp"
+                android:src="@drawable/search"
+                android:layout_weight=".2"
+                android:padding="@dimen/_5sdp"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</androidx.appcompat.widget.Toolbar>

@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:background="#FBFBFB">
+        <com.mondayjob.mondayjob.controller.CustomViews.MyTextViewBold
+            android:layout_width="match_parent"
+            android:textSize="@dimen/_23sdp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:text="@string/editprofile"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:textColor="@color/colourblue"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+    <include layout="@layout/custom_toolbar_detail_page"
+        android:id="@+id/rl_toolbar"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lightGray"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_margin="@dimen/_10sdp"
+        android:layout_below="@+id/rl_toolbar"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/TextInputStyle"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/_10sdp"
+                app:boxCornerRadiusBottomEnd="@dimen/_20sdp"
+                app:boxCornerRadiusBottomStart="@dimen/_20sdp"
+                app:boxCornerRadiusTopStart="@dimen/_20sdp"
+                app:boxCornerRadiusTopEnd="@dimen/_20sdp"
+                android:layout_height="wrap_content"
+                app:hintTextColor="@color/colorBlack"
+                android:hint="@string/firstname">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@android:color/transparent"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/_12sdp" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/TextInputStyle"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/_10sdp"
+                app:boxCornerRadiusBottomEnd="@dimen/_20sdp"
+                app:boxCornerRadiusBottomStart="@dimen/_20sdp"
+                app:boxCornerRadiusTopStart="@dimen/_20sdp"
+                app:boxCornerRadiusTopEnd="@dimen/_20sdp"
+                android:layout_height="wrap_content"
+                app:hintTextColor="@color/colorBlack"
+                android:hint="@string/lastname">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@android:color/transparent"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/_12sdp" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/TextInputStyle"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/_10sdp"
+                app:boxCornerRadiusBottomEnd="@dimen/_20sdp"
+                app:boxCornerRadiusBottomStart="@dimen/_20sdp"
+                app:boxCornerRadiusTopStart="@dimen/_20sdp"
+                app:boxCornerRadiusTopEnd="@dimen/_20sdp"
+                android:layout_height="wrap_content"
+                app:hintTextColor="@color/colorBlack"
+                android:hint="@string/bio">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@android:color/transparent"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/_12sdp" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/TextInputStyle"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/_10sdp"
+                app:boxCornerRadiusBottomEnd="@dimen/_20sdp"
+                app:boxCornerRadiusBottomStart="@dimen/_20sdp"
+                app:boxCornerRadiusTopStart="@dimen/_20sdp"
+                app:boxCornerRadiusTopEnd="@dimen/_20sdp"
+                android:layout_height="wrap_content"
+                app:hintTextColor="@color/colorBlack"
+                android:hint="@string/district">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@android:color/transparent"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/_12sdp" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/TextInputStyle"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/_10sdp"
+                app:boxCornerRadiusBottomEnd="@dimen/_20sdp"
+                app:boxCornerRadiusBottomStart="@dimen/_20sdp"
+                app:boxCornerRadiusTopStart="@dimen/_20sdp"
+                app:boxCornerRadiusTopEnd="@dimen/_20sdp"
+                android:layout_height="wrap_content"
+                app:hintTextColor="@color/colorBlack"
+                android:hint="@string/address">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@android:color/transparent"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/_12sdp" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/TextInputStyle"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/_10sdp"
+                app:boxCornerRadiusBottomEnd="@dimen/_20sdp"
+                app:boxCornerRadiusBottomStart="@dimen/_20sdp"
+                app:boxCornerRadiusTopStart="@dimen/_20sdp"
+                app:boxCornerRadiusTopEnd="@dimen/_20sdp"
+                android:layout_height="wrap_content"
+                app:hintTextColor="@color/colorBlack"
+                android:hint="@string/sex">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@android:color/transparent"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/_12sdp" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/TextInputStyle"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/_10sdp"
+                app:boxCornerRadiusBottomEnd="@dimen/_20sdp"
+                app:boxCornerRadiusBottomStart="@dimen/_20sdp"
+                app:boxCornerRadiusTopStart="@dimen/_20sdp"
+                app:boxCornerRadiusTopEnd="@dimen/_20sdp"
+                android:layout_height="wrap_content"
+                app:hintTextColor="@color/colorBlack"
+                android:hint="@string/contactnumber">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@android:color/transparent"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/_12sdp" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:background="@drawable/boarder_light_gray"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_height="wrap_content">
+                <com.mondayjob.mondayjob.controller.CustomViews.MyTextViewBook
+                    android:layout_width="wrap_content"
+                    android:textSize="@dimen/_14sdp"
+                    android:padding="@dimen/_15sdp"
+                    android:textColor="@color/colorlighttext"
+                    android:text="@string/uploadprofile"
+                    android:layout_height="wrap_content"/>
+
+                <com.mondayjob.mondayjob.controller.CustomViews.MyTextViewBook
+                    android:layout_width="wrap_content"
+                    android:textSize="@dimen/_14sdp"
+                    android:paddingTop="@dimen/_10sdp"
+                    android:paddingBottom="@dimen/_10sdp"
+                    android:paddingLeft="@dimen/_20sdp"
+                    android:paddingRight="@dimen/_20sdp"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:background="@drawable/boarder_blue"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/white"
+                    android:text="@string/upload"
+                    android:layout_height="wrap_content"/>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:orientation="vertical"
+                android:background="@drawable/boarder_green"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginBottom="@dimen/_20sdp"
+                android:layout_height="wrap_content">
+                <com.mondayjob.mondayjob.controller.CustomViews.MyTextViewMedium
+                    android:layout_width="wrap_content"
+                    android:textSize="@dimen/_12sdp"
+                    android:padding="@dimen/_14sdp"
+                    android:textStyle="bold"
+                    android:text="@string/update"
+                    android:layout_gravity="center"
+                    android:textColor="@color/white"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

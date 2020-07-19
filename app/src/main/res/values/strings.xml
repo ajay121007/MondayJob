@@ -1,0 +1,162 @@
+<resources>
+    <string name="app_name">MondayJob</string>
+    <string name="username">Jordan Jeffery</string>
+
+
+    //Home Page String
+    <string name="home">Home</string>
+    <string name="favourite">Favourites</string>
+    <string name="favouritejob">Favourites Job</string>
+    <string name="history">History</string>
+    <string name="resume">Resume</string>
+
+    //side nav bar
+    <string name="language">Language (EN)</string>
+    <string name="personal">Personal Profile</string>
+    <string name="contact">Contact Us / Feedback</string>
+    <string name="logout">Logout</string>
+    <string name="quaryHint">Job title,Keyword</string>
+
+    //home
+    <string name="bestplace">Best place to</string>
+    <string name="findjob">Find a better job easily</string>
+    <string name="searchjob">Search Job</string>
+    <string name="search">Search</string>
+    <string name="Advanced">Advanced Search</string>
+    <string name="hotcompanies">Hot Companies</string>
+    <string name="browse">Browse by Categories</string>
+    <string name="recommendedjobs">Recommended Jobs</string>
+    <string name="viewall">View all</string>
+    <string name="macdonal">MacDonald</string>
+    <string name="caterer">Caterer</string>
+    <string name="daysago">07/09/2020</string>
+    <string name="fulltime">Full Time</string>
+    <string name="rate">$2k-4k</string>
+
+    //fav
+    <string name="pizzahut">Pizza hut</string>
+    <string name="chicagoo">(Chicago)</string>
+    <string name="position">Chef</string>
+    <string name="ref">Ref.No.A90065</string>
+
+
+    //history
+
+    <string name="jobapplication">Jobs Application History</string>
+    <string name="applied">Applied</string>
+
+
+    //resume
+    <string name="coverletter">Cover Letter</string>
+    <string name="uploadresume">Upload Resume</string>
+    <string name="uploadcover">Upload Cover Letter</string>
+
+
+    //jobdetailPage
+
+    <string name="location">Location</string>
+    <string name="jobtype">Job Type</string>
+    <string name="salary">Salary</string>
+    <string name="newyork">New York,USA</string>
+    <string name="qualification">Qualification</string>
+    <string name="function">Function</string>
+    <string name="exp">Experience</string>
+    <string name="industry">Industry</string>
+    <string name="fiveyears">5 yrs. or above</string>
+    <string name="finacial">Financial Service</string>
+    <string name="years">0 Years</string>
+    <string name="banking">Banking /Finance</string>
+    <string name="jobDes">Job Description</string>
+    <string name="benefits">Benefits</string>
+    <string name="req">Requirements</string>
+    <string name="companyinfo">Company Information</string>
+    <string name="address">Address</string>
+    <string name="email">Email</string>
+    <string name="emaildummytext">mcdonald@xyz.com</string>
+    <string name="maintel">Main Tel.</string>
+    <string name="secondarytel">Secondary Tel.</string>
+    <string name="applyforjob">Apply for Job</string>
+    <string name="fax">Fax</string>
+    <string name="dummytext">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</string>
+    <string name="dummytextQualification">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which do not  look even slightly believable</string>
+    <string name="dummytextexperince">All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet</string>
+
+    //>>>>>>>>>>>>>>>>profile>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+    <string name="appliedjobs">Applied Jobs</string>
+    <string name="shared">Shared</string>
+    <string name="bio">Bio</string>
+    <string name="contactno">Contact No.</string>
+
+
+    //>>>>>>>>>>>>>>>edit profile>>>>>>>>>>>>>>>>>>>>>>>>>
+
+    <string name="editprofile">Edit Profile</string>
+    <string name="firstname">First Name</string>
+    <string name="lastname">Last Name</string>
+    <string name="contactnumber">Contact Number</string>
+    <string name="uploadprofile">Upload profile picture</string>
+    <string name="upload">Upload</string>
+    <string name="district">District</string>
+    <string name="sex">Sex</string>
+    <string name="update">Update</string>
+
+
+    //>>>>>>>>>>>>>>>>>>>>>>>>>>>CONTACT US>>>>>>>>>>>>>>>>>>>>>>>>
+
+    <string name="name">Name</string>
+    <string name="message">Message</string>
+    <string name="contactus">Contact Us</string>
+
+
+    //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>language>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    <string name="selectPrflanguage">Select your preferred language</string>
+    <string name="china">Chinese</string>
+    <string name="english">English</string>
+    <string name="lan">Language</string>
+
+
+    ///........................title>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+    <string name="hometitle">Home</string>
+
+
+    //>.......................advanced search>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.
+
+    <string name="worktitle">Work Title</string>
+    <string name="companytitle">Company Title</string>
+    <string name="minimumsalary">Minimum Salary</string>
+
+    //>>>>>>>>>>>>>>>>>>>>>>>>arrays>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+    <string-array name="function">
+        <item>Function</item>
+        <item>Test one</item>
+        <item>Test two</item>
+        <item>Test three</item>
+        <item>Test Four</item>
+    </string-array>
+    <string-array name="industry">
+        <item>Industry</item>
+        <item>Test one</item>
+        <item>Test two</item>
+        <item>Test three</item>
+        <item>Test Four</item>
+    </string-array>
+    <string-array name="nature">
+        <item>Employment Nature</item>
+        <item>Test one</item>
+        <item>Test two</item>
+        <item>Test three</item>
+        <item>Test Four</item>
+    </string-array>
+    <string-array name="salrytype">
+        <item>Salary Type</item>
+        <item>Test one</item>
+        <item>Test two</item>
+        <item>Test three</item>
+        <item>Test Four</item>
+    </string-array>
+
+
+</resources>

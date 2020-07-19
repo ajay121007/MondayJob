@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="TextInputStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/green</item>
+        <item name="boxBackgroundColor">#eaeaea</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="android:textColorHint">@color/colorlighttext</item>
+    </style>
+
+    <style name="TextAppearance.App.TextInputLayoutKeyWorker" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+</resources>

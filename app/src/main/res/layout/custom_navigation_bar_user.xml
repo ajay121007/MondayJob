@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:weightSum="2"
+        android:background="@color/white"
+        android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight=".5"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_height="0dp">
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="@dimen/_80sdp"
+                    android:background="@drawable/profile"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:layout_height="@dimen/_80sdp"/>
+                <com.mondayjob.mondayjob.controller.CustomViews.MyTextViewMedium
+                    android:layout_width="wrap_content"
+                    android:text="@string/username"
+                    android:textSize="@dimen/_16sdp"
+                    android:textColor="@color/green"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1.5"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:orientation="vertical"
+                android:layout_height="0dp">
+                <View
+                    android:layout_width="match_parent"
+                    android:background="@color/lightGray"
+                    android:layout_height="1dp"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:id="@+id/ll_lan"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:layout_height="wrap_content">
+                    <com.mondayjob.mondayjob.controller.CustomViews.MyTextViewBook
+                        android:layout_width="wrap_content"
+                        android:text="@string/language"
+                        android:textColor="@color/textnavbar"
+                        android:textSize="@dimen/_12sdp"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:background="@color/lightGray"
+                    android:layout_height="1dp"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:id="@+id/ll_profile"
+                    android:layout_height="wrap_content">
+                    <com.mondayjob.mondayjob.controller.CustomViews.MyTextViewBook
+                        android:layout_width="wrap_content"
+                        android:text="@string/personal"
+                        android:textColor="@color/textnavbar"
+                        android:textSize="@dimen/_12sdp"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:background="@color/lightGray"
+                    android:layout_height="1dp"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:id="@+id/ll_contact_us"
+                    android:layout_height="wrap_content">
+                    <com.mondayjob.mondayjob.controller.CustomViews.MyTextViewBook
+                        android:layout_width="wrap_content"
+                        android:text="@string/contact"
+                        android:textColor="@color/textnavbar"
+                        android:textSize="@dimen/_12sdp"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:background="@color/lightGray"
+                    android:layout_height="1dp"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:id="@+id/ll_logout"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:layout_height="wrap_content">
+                    <com.mondayjob.mondayjob.controller.CustomViews.MyTextViewBook
+                        android:layout_width="wrap_content"
+                        android:text="@string/logout"
+                        android:textColor="@color/textnavbar"
+                        android:textSize="@dimen/_12sdp"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
